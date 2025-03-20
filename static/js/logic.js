@@ -1,8 +1,9 @@
 // Create the 'basemap' tile layer that will be the background of our map.
 
+// establish geoJSON endpoint
+// geojson data for the past week
+let queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
-// OPTIONAL: Step 2
-// Create the 'street' tile layer as a second background of the map
 
 
 // Create the map object with center and zoom options.
